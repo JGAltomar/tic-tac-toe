@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="header">Tic-Tac-Toe</h1>
+        <div class="buttons">
+            <button class="2players-btn">2 Players</button>
+            <button class="ai-btn">AI</button>
+        </div>
+        <div class="game-container hide">
+            <div id="blck1" class="blck"></div>
+            <div id="blck2" class="blck"></div>
+            <div id="blck3" class="blck"></div>
+            <div id="blck4" class="blck"></div>
+            <div id="blck5" class="blck"></div>
+            <div id="blck6" class="blck"></div>
+            <div id="blck7" class="blck"></div>
+            <div id="blck8" class="blck"></div>
+            <div id="blck9" class="blck"></div>
+        </div>
+        <h2>Score:</h2>
+        <div class="score-container">
+            <span class="score">
+                <span class="score-x">X</span> :
+                <span class="score-count-x">0</span>
+            </span>
+            <span class="score">
+                <span class="score-o"></span> :
+                <span class="score-count-o">0</span>
+            </span>
+        </div>
+
+        <div hidden>
+            <div class="x">X</div>
+            <div class="o"></div>
+        </div>
+
+        <div class="msg-container" hidden>
+            <p class="msg"></p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="tic-tac-toe.js"></script>
